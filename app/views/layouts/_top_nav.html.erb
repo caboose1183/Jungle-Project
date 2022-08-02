@@ -54,7 +54,7 @@
       <ul class="navbar-nav">
       
         <% if current_user %>
-          Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout', class: "nav-link text-danger" %>
+          Signed in as <%= current_user.first_name + ' ' +  current_user.last_name %> | <%= link_to "Logout", '/logout', class: "nav-link text-danger" %>
         <% else %>
           <%= link_to 'Login', '/login', class: "nav-link text-danger" %> | <%= link_to 'Signup', '/signup', class: "nav-link text-danger" %>
         <% end %>
