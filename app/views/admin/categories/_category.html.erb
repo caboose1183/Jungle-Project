@@ -1,6 +1,8 @@
 <tr>
   <td>
+  <% if category.products[0] != nil %>
     <%= image_tag category.products[0].image.tiny.url %>
+  <% end %>
   </td>
   <td>
     <h4><%= category.name %></h4>
