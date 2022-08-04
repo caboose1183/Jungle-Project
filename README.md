@@ -4,9 +4,9 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Final Product
 
-!["View of the Title Page"]()
+!["View of the Title Page"](https://github.com/caboose1183/Jungle-Project/blob/master/docs/jungle%20title.jpg?raw=true)
 
-!["Main Page of Products"]()
+!["Main Page of Products"](https://github.com/caboose1183/Jungle-Project/blob/master/docs/jungle%20main%20page.jpg?raw=true)
 
 ## Setup
 
