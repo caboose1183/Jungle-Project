@@ -1,0 +1,13 @@
+<h1>Receipt for order <%= @order.id %></h1>
+
+
+
+<p>
+  Thank you for your order! 
+</p>
+
+<% @products.line_items.each do |item| %>
+  <p>
+  <%= item.product.name %> with quantity <%= item.product.quantity %> of <%= item.product.price %> has been shipped!
+  </p>
+<% end %>
